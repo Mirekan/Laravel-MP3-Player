@@ -1,0 +1,66 @@
+.side-bar{
+    padding: 20px;
+}
+body{
+    background-color: #6F323C;
+    color: #f5deb3;
+}
+.wheat{
+    color: #f5deb3;
+}
+.navbar{
+    background-color: #6F323C;
+}
+
+.base{
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    color: bisque;
+}
+.bi{
+    font-size: 25px;
+}
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 1.5rem; /* Adjust size if needed */
+}
+
+/* Remove dropdown icon */
+.btn-transparent::after {
+    display: none;
+}
+
+.search-bar {
+    transition: width 0.4s ease, visibility 0.4s ease;
+}
+
+.expanded {
+    width: 250px !important; /* Adjust width as needed */
+    visibility: visible !important;
+}
+.sign-up{
+    font-weight: bold;
+    color: black;
+    background-color: wheat;
+    border-color: wheat;
+}
+
+.search-btn {
+    color: black;
+    background-color: wheat;
+    border-color: wheat;
+}
+
+.play-button {
+    height: 4vh;
+    width: 4vh;
+    background-color: wheat;
+    border-radius: 2vh;
+}
