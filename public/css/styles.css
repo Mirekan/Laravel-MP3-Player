@@ -5,15 +5,24 @@ body{
     background-color: #6F323C;
     color: #f5deb3;
 }
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
 .wheat{
     color: #f5deb3;
 }
 .navbar{
     background-color: #6F323C;
-}
-
-.base{
-    margin: 8px;
 }
 a{
     text-decoration: none;
@@ -59,8 +68,25 @@ a:hover{
 }
 
 .play-button {
-    height: 4vh;
-    width: 4vh;
+    height: 2vh;
+    width: 2vh;
     background-color: wheat;
     border-radius: 2vh;
+}
+
+.custom-card {
+
+}
+
+.custom-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.hover {
+    background-color: #6F323C; 
+} 
+
+.hover:hover {
+    background-color: #6f323c6e;
 }

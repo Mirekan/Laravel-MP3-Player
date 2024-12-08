@@ -7,10 +7,10 @@
               <form action="{{ route('song.index') }}" method="GET" >
                 @csrf
                 <div class="input-group">
-                  <span class="input-group-text border-danger-subtle border-end-0" style="background-color: #974B57; border-radius: 25px 0px 0px 25px;" >
+                  <span class="input-group-text border-danger-subtle border-0" style="background-color: #974B57; border-radius: 25px 0px 0px 25px;" >
                     <i class="fas fa-search"></i>
                   </span>
-                  <input type="text" name="name" class="form-control border-danger-subtle border-start-0 search-bar" value="{{ $search }}" placeholder="Search" aria-describedby="basic-addon1"  style="background-color: #974B57; border-radius: 0px 25px 25px 0px;">
+                  <input type="text" name="name" class="form-control border-danger-subtle border-0 search-bar" value="{{ $search }}" placeholder="Search" aria-describedby="basic-addon1"  style="background-color: #974B57; border-radius: 0px 25px 25px 0px;  min-width: 60dvh;">
                 </div>
               </form>
             </div>
@@ -23,7 +23,7 @@
 
               <div class="btn-group d-flex">
                   <button type="button" class="btn sign-up dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Selamat datang, {{ $user->name }} 
+                    {{ $user->name }} 
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end">
                       <li>
